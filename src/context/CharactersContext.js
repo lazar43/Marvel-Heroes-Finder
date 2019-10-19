@@ -32,7 +32,7 @@ const CharactersContextProvider = props => {
   useEffect(() => {
     axios
       .get(
-        `http://gateway.marvel.com/v1/public/characters?nameStartsWith=${char.name}&ts=1&apikey=${process.env.REACT_APP_API_KEY}&hash=99bc13e1b3b08ff9afb3cf2fafc04344`
+        `https://gateway.marvel.com/v1/public/characters?nameStartsWith=${char.name}&ts=1&apikey=${process.env.REACT_APP_API_KEY}&hash=99bc13e1b3b08ff9afb3cf2fafc04344`
       )
       .then(res => {
         if (res.data.data.results.length > 0) {
