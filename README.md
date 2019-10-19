@@ -1,7 +1,7 @@
 ## Setup
 
 ```bash
-$ git clone https://github.com/lazar43/Store-App.git
+$ git clone https://github.com/lazar43/Marvel-Heroes-Finder.git
 $ npm i
 $ npm start
 ```
