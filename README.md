@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup
+
+```bash
+$ git clone https://github.com/lazar43/Store-App.git
+$ npm i
+$ npm start
+```
 
 ## Available Scripts
 
