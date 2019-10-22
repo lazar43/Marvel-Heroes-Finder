@@ -4,13 +4,7 @@
 }
 
 body {
-  background: rgb(25, 20, 108);
-  background: radial-gradient(
-    circle,
-    rgba(25, 20, 108, 1) 0%,
-    rgba(14, 14, 167, 1) 58%,
-    rgba(11, 145, 172, 1) 100%
-  );
+  background: #38a4ff;
 }
 
 .App {

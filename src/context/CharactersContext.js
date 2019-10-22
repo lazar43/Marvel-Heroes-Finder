@@ -50,8 +50,8 @@ const CharactersContextProvider = props => {
             id: ""
           });
         }
-        console.log(res);
-      });
+      })
+      .catch(err => {});
   }, [char]);
 
   useEffect(() => {
