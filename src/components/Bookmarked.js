@@ -2,7 +2,7 @@ import React from "react";
 
 const Bookmarked = ({ hero, handleRemoveBookmark }) => {
   return (
-    <div className="img-container">
+    <article className="img-container">
       <div className="flip-card-inner">
         <div className="flip-card-front">
           <i
@@ -29,7 +29,7 @@ const Bookmarked = ({ hero, handleRemoveBookmark }) => {
           <p>{hero.description}</p>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 

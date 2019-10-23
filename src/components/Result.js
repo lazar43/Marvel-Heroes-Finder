@@ -9,7 +9,7 @@ const Result = () => {
     CharactersContext
   );
   return (
-    <div className="results-container">
+    <section className="results-container">
       {(favHeroes.length === 0) & (char.name.length === 0) ? (
         <EmptyBookmark />
       ) : null}
@@ -26,7 +26,7 @@ const Result = () => {
       ) : (
         <h1>Not Found Hero with {char.name} name</h1>
       )}
-    </div>
+    </section>
   );
 };
 

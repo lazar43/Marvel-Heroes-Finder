@@ -10,7 +10,7 @@ const Result = () => {
   } = useContext(CharactersContext);
 
   return (
-    <div className="img-container">
+    <article className="img-container">
       <div className="flip-card-inner">
         <div className="flip-card-front">
           {favHeroes.find(hero => hero.id === heroes.id) ? (
@@ -66,7 +66,7 @@ const Result = () => {
           <p>{heroes.description}</p>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 
